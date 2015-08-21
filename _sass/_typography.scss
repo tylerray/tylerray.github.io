@@ -61,7 +61,7 @@ hr {
     line-height: 1.2;
 }
 
-.post-list, .project-list {
+.post-list, .paper-list {
     padding-left: 0;
     list-style: none;
 }
@@ -73,7 +73,7 @@ hr {
     }
 }
 
-.project-list {
+.paper-list {
     li {
         padding: 20px;
         &:hover {
@@ -82,14 +82,14 @@ hr {
     }
 }
 
-.project-title {
+.paper-title {
     margin: 0 0 10px;
     line-height: 1;
     font-size: 2.25em;
     font-weight: 400;
 }
 
-.project-description {
+.paper-description {
     margin: 0;
 }
 
@@ -105,4 +105,3 @@ hr {
         color: $dark-grey;
     }
 }
-
