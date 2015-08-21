@@ -1,2 +1,2 @@
-# Berkan Dirim Personal Website
-This is a repository of my personal web page [dirim.co](http://www.dirim.co/).
+# Test
+This is a repository of my personal web page
