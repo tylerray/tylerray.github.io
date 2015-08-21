@@ -5,7 +5,18 @@ class: projects
 title: Projects
 ---
 
-<p>Some of the projects I've worked on so far</p>
+<p>Published Papers</p>
+
+<ul class="project-list">
+    {% for project in site.data.projects %}
+    <li>
+        <h2 class="project-title">{% if project.link %}<a href="{{project.link}}" target="_blank">{% endif %}{{project.title}}</a></h2>
+        <p class="project-description">{{project.description}}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+<p>Papers in Preparation</p>
 
 <ul class="project-list">
     {% for project in site.data.projects %}

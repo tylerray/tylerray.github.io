@@ -1,5 +1,5 @@
 url: http://tylerray.github.io
-baseurl: http://tylerray.github.io
+baseurl: 
 timezone:
 destination: _build
 exclude: ['README.md', '.sass-cache']
