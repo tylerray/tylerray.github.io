@@ -1,13 +1,21 @@
-url: http://tylerray.github.io
-baseurl: 
-timezone:
-destination: _build
-exclude: ['README.md', '.sass-cache']
-include: [.htaccess]
-markdown: redcarpet
-highlighter: pygments
-permalink: /blog/:year/:month/:day/:title/
-sass:
-  style: compressed
-gems:
-    - jekyll-sitemap
+# Site settings
+title: Tyler Ray
+email: tylerray@protonmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Content unrelated to reptiles.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://tylerray.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:  tylerray
+
+# Build settings
+markdown: kramdown
+
+# pdz8 settings
+exclude: [
+  sandbox/,
+  website.*,
+  ]
+permalink: /posts/:title
+enable_disqus: false
+enable_social: false
