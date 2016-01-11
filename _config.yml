@@ -1,0 +1,13 @@
+url: http://tylerray.github.io
+baseurl: 
+timezone:
+destination: _build
+exclude: ['README.md', '.sass-cache']
+include: [.htaccess]
+markdown: redcarpet
+highlighter: pygments
+permalink: /blog/:year/:month/:day/:title/
+sass:
+  style: compressed
+gems:
+    - jekyll-sitemap
