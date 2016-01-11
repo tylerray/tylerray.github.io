@@ -20,5 +20,3 @@ exclude: [
 permalink: /posts/:title
 enable_disqus: false
 enable_social: false
-gems: 
-	- github-pages
