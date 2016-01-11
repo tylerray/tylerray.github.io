@@ -4,9 +4,10 @@ email: tylerray@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Content unrelated to reptiles.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "tylerray.github.io" # the base hostname & protocol for your site
+url: "http://tylerray.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  tylerray
+destination: _build
 
 # Build settings
 markdown: kramdown
@@ -19,3 +20,5 @@ exclude: [
 permalink: /posts/:title
 enable_disqus: false
 enable_social: false
+gems: 
+	- github-pages
