@@ -1,15 +1,61 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
+    
     <url>
-        <loc>{{ site.url }}{{ post.url | remove: 'index.html' }}</loc>
+        <loc>http://tylerray.com/posts/hello-world</loc>
     </url>
-    {% endfor %}
-    {% for page in site.pages %}
+    
     <url>
-        <loc>{{ site.url }}{{ page.url | remove: 'index.html' }}</loc>
+        <loc>http://tylerray.com/posts/Mollis-offendit-in-mea</loc>
     </url>
-    {% endfor %}
+    
+    <url>
+        <loc>http://tylerray.com/posts/Lorem-Ipsum-Dolor</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/posts/Another-Project-Title</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/posts/Hello-World</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://tylerray.com/projects/</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/contact/</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/contact2</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/feed.xml</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/css/main.css</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/papers</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/papers/</loc>
+    </url>
+    
+    <url>
+        <loc>http://tylerray.com/sitemap.xml</loc>
+    </url>
+    
 </urlset>
